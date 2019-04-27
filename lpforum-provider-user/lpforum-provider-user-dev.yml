@@ -10,7 +10,7 @@ spring:
     ###################### Druid配置#################################
     #通过 http://domain:port/druid/login.html 访问druid监控页面
     druid:
-      initialSize: 5    #初始化时建立物理连接的个数
+      initialSize: 10    #初始化时建立物理连接的个数
       maxActive: 20     #最大连接池数量
       minIdle: 5        #最小连接池数量
       maxWait: 60000    # 配置获取连接等待超时的时间
