@@ -24,4 +24,4 @@ spring:
       filter:
         stat:
           log-slow-sql: true
-      connectionProperties: config.decrypt=true #密码加密
+      connection-properties: config.decrypt=false #密码加密
